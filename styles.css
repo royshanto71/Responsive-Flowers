@@ -34,6 +34,12 @@
     text-decoration: none;
     color: rgb(137, 135, 161);
 }
+.Home {
+    color: rgb(37, 36, 50);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+}
 .cart {
     color: rgb(0, 0, 0);
     font-family: Inter;
@@ -60,7 +66,7 @@
 
 
 
-
+/* Responsive CSS for Mobile devices (max width 576px) */
 
 
 
