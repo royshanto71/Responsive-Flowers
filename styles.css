@@ -1,5 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* Navbar */
 
+.header-content {
+    max-width: 1140px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px;
+    padding: 5.5px;
+    margin: 30px 150px 0 150px;
+}
+.navbar {
+    display: flex;
+    gap: 48px;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 48px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+}
+.cart {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
 /* Banner */
 
 /* Plants Section */
