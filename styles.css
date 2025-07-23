@@ -67,7 +67,16 @@
 
 
 /* Responsive CSS for Mobile devices (max width 576px) */
-
+@media screen and (max-width: 576px) {
+    
+    /* responsive header for Mobile devices */
+    .nav-links {
+        display: none;
+    }
+    .header-content {
+        margin: 13px 16px 0 16px;
+    }
+}
 
 
 /* optional */
