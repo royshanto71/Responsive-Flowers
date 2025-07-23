@@ -89,6 +89,76 @@
 
 
 /* Plants Section */
+.our-plants {
+    max-width: 1140px;
+    height: 100%;
+    margin: 100px 150px 0 150px;
+    text-align: center;
+}
+.our-plants-title {
+    color: rgb(37, 36, 50);
+    font-family: Noto Serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.our-plants-description {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+}
+.plant-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+.plant {
+    border: none;
+    text-align: center;
+    line-height: 60px;
+}
+.plant-image {
+    width: 100%;
+}
+.plant-title {
+    color: rgb(17, 17, 17);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+}
+.plant-price {
+    color: rgb(17, 17, 17);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+}
+.add-to-cart {
+    color: rgb(37, 36, 50);
+    color: rgb(255, 255, 255);
+    padding: 26px 50px;
+    background: rgb(233, 90, 8);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.add-to-cart-text {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+.our {
+    color: rgb(233, 90, 8);
+}
+
+
 
 /* Plants Lover Section */
 
@@ -113,7 +183,7 @@
     .header-content {
         margin: 13px 16px 0 16px;
     }
-
+    /* banner section for Mobile devices */
     .banner {
         flex-direction: column;
         margin: 20px 20px 0 20px;
@@ -158,8 +228,17 @@
         line-height: 1.5;
         margin-top: 15px;
     }
+    /* responsive plants section for Mobile devices */
 
-    
+    .plant-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .our-plants {
+        margin: 50px 20px 0 20px;
+    }
+    .add-to-cart {
+        padding: 10px 20px;
+    }
 }
 
 
