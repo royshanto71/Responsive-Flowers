@@ -49,7 +49,21 @@
     border: none;
     cursor: pointer;
 }
+
 /* Banner */
+
+.banner {
+    max-width: 1140px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px 0 150px;
+}
+
+
+
+
 
 /* Plants Section */
 
