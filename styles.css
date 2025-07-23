@@ -57,11 +57,34 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 30px 150px 0 150px;
+    align-items: flex-end;
+    padding-top: 106px;
 }
-
-
+.banner-title {
+    color: rgb(37, 36, 50);
+    font-family: Noto Serif;
+    font-size: 65px;
+    font-weight: 700;
+}
+.fresh-flowers {
+    color: rgb(233, 90, 8);
+    font-family: Noto Serif;
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-description {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+}
+.banner-img {
+    width: 100%;
+}
+.banner-content {
+    width: 100%;
+}
 
 
 
@@ -90,6 +113,53 @@
     .header-content {
         margin: 13px 16px 0 16px;
     }
+
+    .banner {
+        flex-direction: column;
+        margin: 20px 20px 0 20px;
+        padding-top: 40px;
+        align-items: center;
+        text-align: left;
+    }
+
+    .banner-content {
+        width: 100%;
+        order: 2;
+        margin-top: 30px;
+    }
+
+    .banner-img {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-flower {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .banner-title {
+        font-size: 36px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    .fresh-flowers {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .banner-description {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-top: 15px;
+    }
+
+    
 }
 
 
