@@ -161,6 +161,23 @@
 
 
 /* Plants Lover Section */
+.trusted-plant-lover {
+    max-width: 1140px;
+    height: 100%;
+    margin: 200px 150px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.trusted-badge {
+    width: 286px;
+    height: 286px;
+    position: relative;
+    top: -730px;
+    left: 370px;
+}
+
 
 /* Trusted Plant Lover Badge Challenge Part */
 
