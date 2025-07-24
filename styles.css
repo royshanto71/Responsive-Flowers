@@ -163,12 +163,12 @@
 /* Plants Lover Section */
 .trusted-plant-lover {
     max-width: 1140px;
-    height: 100%;
+    height: 597px;
     margin: 200px 150px 0 150px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 60px;
+    align-items: flex-start;
+    gap: 110px;
 }
 .trusted-badge {
     width: 286px;
@@ -176,8 +176,31 @@
     position: relative;
     top: -730px;
     left: 370px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
+.trusted-plant-lover-title {
+    color: rgb(37, 36, 50);
+    font-family: Noto Serif;
+    font-size: 48px;
+    font-weight: 700;color: rgb(0, 0, 0);
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.plant-lover-list-item {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+}
+.trusted-plant-lover-content {
+    width: 100%;
+    
+}
+.trusted-plant-lover-list {
+    margin-top: 30px;
+    padding-left: 30px;
+}
 
 /* Trusted Plant Lover Badge Challenge Part */
 
@@ -255,6 +278,37 @@
     }
     .add-to-cart {
         padding: 10px 20px;
+    }
+
+    /* Plants Lover Section */
+    .trusted-plant-lover {
+        flex-direction: column;
+        margin: 50px 20px 0 20px;
+        gap: 20px;
+    }
+    .trusted-badge {
+        display: none;
+    }
+    .trusted-plant-lover-list {
+        padding-left: 0;
+    }
+    .flower-store-img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        object-fit: contain;
+    }
+    .trusted-plant-lover-content {
+        width: 100%;
+        padding-left: 30px;
+    }
+    .trusted-plant-lover-title {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+    .plant-lover-list-item {
+        font-size: 16px;
+        line-height: 1.5;
     }
 }
 
